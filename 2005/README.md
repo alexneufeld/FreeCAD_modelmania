@@ -6,4 +6,4 @@
 
 ## Notes
 
-x
+Fillets for part 2 aren't perfect. Shape is valid though, so good enough for now!
