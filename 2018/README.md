@@ -6,4 +6,4 @@
 
 ## Notes
 
-x
+Secondary fillets were omitted on Phase 2 model.

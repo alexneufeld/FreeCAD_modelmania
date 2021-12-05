@@ -59,7 +59,7 @@ Progress table:
 | 2015 | :heavy_check_mark:     | :heavy_check_mark:     |
 | 2016 | :heavy_check_mark:     | :black_square_button:  |
 | 2017 | :heavy_check_mark:     | :heavy_check_mark:     |
-| 2018 | :heavy_check_mark:     | :black_square_button:  |
+| 2018 | :heavy_check_mark:     | :large_orange_diamond: |
 | 2019 | :heavy_check_mark:     | :heavy_check_mark:     |
 | 2020 | :heavy_check_mark:     | :heavy_check_mark:     |
-| 2021 | :heavy_check_mark:     | :black_square_button:  |
+| 2021 | :heavy_check_mark:     | N/A                    |
