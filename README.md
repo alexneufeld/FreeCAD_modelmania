@@ -56,7 +56,7 @@ Progress table:
 | 2012 | :heavy_check_mark:     | :heavy_check_mark:     |
 | 2013 | :red_circle:           | :black_square_button:  |
 | 2014 | :heavy_check_mark:     | :heavy_check_mark:     |
-| 2015 | :heavy_check_mark:     | :black_square_button:  |
+| 2015 | :heavy_check_mark:     | :heavy_check_mark:     |
 | 2016 | :heavy_check_mark:     | :black_square_button:  |
 | 2017 | :heavy_check_mark:     | :heavy_check_mark:     |
 | 2018 | :heavy_check_mark:     | :black_square_button:  |
