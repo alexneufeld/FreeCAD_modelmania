@@ -51,7 +51,7 @@ Progress table:
 | 2007 | :black_square_button:  | :black_square_button:  |
 | 2008 | :red_circle:           | :black_square_button:  |
 | 2009 | :heavy_check_mark:     | :black_square_button:  |
-| 2010 | :heavy_check_mark:     | :black_square_button:  |
+| 2010 | :heavy_check_mark:     | :heavy_check_mark:     |
 | 2011 | :heavy_check_mark:     | :heavy_check_mark:     |
 | 2012 | :heavy_check_mark:     | :heavy_check_mark:     |
 | 2013 | :red_circle:           | :black_square_button:  |
