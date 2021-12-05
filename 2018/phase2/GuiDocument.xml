@@ -3,19 +3,268 @@
  FreeCAD Document, see http://www.freecadweb.org for more information...
 -->
 <Document SchemaVersion="1" FileVersion="2" Split="0" HasExpansion="1">
-<Expand  count="1">
-  <Expand name="Body" count="6">
-    <Expand name="Pad"/>
-    <Expand name="Pocket"/>
-    <Expand name="Pad001"/>
-    <Expand name="Pocket001"/>
-    <Expand name="Boolean"/>
-    <Expand name="Pocket002"/>
-  </Expand>
-</Expand>
+<Expand />
 >
-  <ViewProviderData Count="28">
-    <ViewProvider name="Body" expanded="1" Extensions="True">
+  <ViewProviderData Count="33">
+    <ViewProvider name="Boolean001" expanded="0" Extensions="True">
+      <Extensions Count="3">
+        <Extension type="Gui::ViewProviderGeoFeatureGroupExtension" name="ViewProviderGeoFeatureGroupExtension">
+        </Extension>
+        <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+        </Extension>
+        <Extension type="PartGui::ViewProviderAttachExtension" name="ViewProviderAttachExtension">
+        </Extension>
+      </Extensions>
+      <Properties Count="33" TransientCount="0">
+        <Property name="AngularDeflection" type="App::PropertyAngle" status="1">
+          <Float value="28.65"/>
+        </Property>
+        <Property name="BoundingBox" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="Deviation" type="App::PropertyFloatConstraint" status="1">
+          <Float value="0.2"/>
+        </Property>
+        <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
+          <ColorList count="30" >
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+          </ColorList>
+        </Property>
+        <Property name="Display" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+          <Integer value="1"/>
+        </Property>
+        <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="ForceMapColors" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="IconColor" type="App::PropertyColor" status="1">
+          <PropertyColor value="2275082495"/>
+        </Property>
+        <Property name="Lighting" type="App::PropertyEnumeration" status="1">
+          <Integer value="1"/>
+        </Property>
+        <Property name="LineColor" type="App::PropertyColor" status="1">
+          <PropertyColor value="0"/>
+        </Property>
+        <Property name="LineColorArray" type="App::PropertyColorList" status="1">
+          <ColorList count="1" >
+0
+          </ColorList>
+        </Property>
+        <Property name="LineMaterial" type="App::PropertyMaterial" status="33">
+          <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
+        </Property>
+        <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
+          <Float value="1"/>
+        </Property>
+        <Property name="MapFaceColor" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="MapLineColor" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="MapPointColor" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="MapTransparency" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="MappedColors" type="App::PropertyColorList" status="83886081">
+          <ColorList file=""/>
+        </Property>
+        <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="PointColor" type="App::PropertyColor" status="1">
+          <PropertyColor value="0"/>
+        </Property>
+        <Property name="PointColorArray" type="App::PropertyColorList" status="1">
+          <ColorList count="1" >
+0
+          </ColorList>
+        </Property>
+        <Property name="PointMaterial" type="App::PropertyMaterial" status="33">
+          <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
+        </Property>
+        <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
+          <Float value="1"/>
+        </Property>
+        <Property name="ResetClipPlane" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="Selectable" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="ShadowStyle" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="ShapeColor" type="App::PropertyColor" status="1">
+          <PropertyColor value="4289036544"/>
+        </Property>
+        <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
+          <PropertyMaterial ambientColor="858993408" diffuseColor="4289036544" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
+        </Property>
+        <Property name="ShowInTree" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="Transparency" type="App::PropertyPercent" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="Visibility" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+      </Properties>
+    </ViewProvider>
+    <ViewProvider name="Hole001" expanded="0" Extensions="True">
+      <Extensions Count="2">
+        <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+        </Extension>
+        <Extension type="PartGui::ViewProviderAttachExtension" name="ViewProviderAttachExtension">
+        </Extension>
+      </Extensions>
+      <Properties Count="32" TransientCount="0">
+        <Property name="AngularDeflection" type="App::PropertyAngle" status="1">
+          <Float value="28.65"/>
+        </Property>
+        <Property name="BoundingBox" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="Deviation" type="App::PropertyFloatConstraint" status="1">
+          <Float value="0.2"/>
+        </Property>
+        <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
+          <ColorList count="1" >
+ffa58100
+          </ColorList>
+        </Property>
+        <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="ForceMapColors" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="IconColor" type="App::PropertyColor" status="1">
+          <PropertyColor value="2275082495"/>
+        </Property>
+        <Property name="Lighting" type="App::PropertyEnumeration" status="1">
+          <Integer value="1"/>
+        </Property>
+        <Property name="LineColor" type="App::PropertyColor" status="1">
+          <PropertyColor value="0"/>
+        </Property>
+        <Property name="LineColorArray" type="App::PropertyColorList" status="1">
+          <ColorList count="1" >
+0
+          </ColorList>
+        </Property>
+        <Property name="LineMaterial" type="App::PropertyMaterial" status="33">
+          <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
+        </Property>
+        <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
+          <Float value="1"/>
+        </Property>
+        <Property name="MapFaceColor" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="MapLineColor" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="MapPointColor" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="MapTransparency" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="MappedColors" type="App::PropertyColorList" status="83886081">
+          <ColorList file=""/>
+        </Property>
+        <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="PointColor" type="App::PropertyColor" status="1">
+          <PropertyColor value="0"/>
+        </Property>
+        <Property name="PointColorArray" type="App::PropertyColorList" status="1">
+          <ColorList count="1" >
+0
+          </ColorList>
+        </Property>
+        <Property name="PointMaterial" type="App::PropertyMaterial" status="33">
+          <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
+        </Property>
+        <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
+          <Float value="1"/>
+        </Property>
+        <Property name="ResetClipPlane" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="Selectable" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="ShadowStyle" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="ShapeColor" type="App::PropertyColor" status="1">
+          <PropertyColor value="4289036544"/>
+        </Property>
+        <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
+          <PropertyMaterial ambientColor="858993408" diffuseColor="4289036544" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
+        </Property>
+        <Property name="ShowInTree" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="Transparency" type="App::PropertyPercent" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="Visibility" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+      </Properties>
+    </ViewProvider>
+    <ViewProvider name="Body" expanded="0" Extensions="True">
       <Extensions Count="1">
         <Extension type="Gui::ViewProviderOriginGroupExtension" name="ViewProviderOriginGroupExtension">
         </Extension>
@@ -32,7 +281,7 @@
         </Property>
         <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
           <ColorList count="1" >
-6d757f00
+ffa58100
           </ColorList>
         </Property>
         <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
@@ -62,7 +311,7 @@
           <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
         </Property>
         <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
-          <Float value="2"/>
+          <Float value="1"/>
         </Property>
         <Property name="MapFaceColor" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -94,7 +343,7 @@
           <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
         </Property>
         <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
-          <Float value="2"/>
+          <Float value="1"/>
         </Property>
         <Property name="ResetClipPlane" type="App::PropertyBool" status="1">
           <Bool value="false"/>
@@ -109,10 +358,10 @@
           <Integer value="0"/>
         </Property>
         <Property name="ShapeColor" type="App::PropertyColor" status="1">
-          <PropertyColor value="1836416768"/>
+          <PropertyColor value="4289036544"/>
         </Property>
         <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
-          <PropertyMaterial ambientColor="858993408" diffuseColor="1836416768" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
+          <PropertyMaterial ambientColor="858993408" diffuseColor="4289036544" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
         </Property>
         <Property name="ShowInTree" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -156,7 +405,7 @@
           <Bool value="true"/>
         </Property>
         <Property name="Size" type="App::PropertyVector" status="5">
-          <PropertyVector valueX="23.99708938598633" valueY="13" valueZ="67"/>
+          <PropertyVector valueX="23.99894142150879" valueY="13" valueZ="67"/>
         </Property>
         <Property name="Visibility" type="App::PropertyBool" status="1">
           <Bool value="false"/>
@@ -196,7 +445,7 @@
           <Bool value="true"/>
         </Property>
         <Property name="Size" type="App::PropertyFloat" status="16777217">
-          <Float value="25.99708938598633"/>
+          <Float value="25.99894142150879"/>
         </Property>
         <Property name="Transparency" type="App::PropertyPercent" status="1">
           <Integer value="0"/>
@@ -525,7 +774,7 @@
           <Bool value="true"/>
         </Property>
         <Property name="Size" type="App::PropertyFloat" status="16777217">
-          <Float value="25.99708938598633"/>
+          <Float value="25.99894142150879"/>
         </Property>
         <Property name="Transparency" type="App::PropertyPercent" status="1">
           <Integer value="0"/>
@@ -568,7 +817,7 @@
           <Bool value="true"/>
         </Property>
         <Property name="Size" type="App::PropertyFloat" status="16777217">
-          <Float value="25.99708938598633"/>
+          <Float value="25.99894142150879"/>
         </Property>
         <Property name="Transparency" type="App::PropertyPercent" status="1">
           <Integer value="0"/>
@@ -892,7 +1141,7 @@
         </Property>
       </Properties>
     </ViewProvider>
-    <ViewProvider name="Pad" expanded="1" Extensions="True">
+    <ViewProvider name="Pad" expanded="0" Extensions="True">
       <Extensions Count="2">
         <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
         </Extension>
@@ -911,7 +1160,7 @@
         </Property>
         <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
           <ColorList count="1" >
-6d757f00
+ffa58100
           </ColorList>
         </Property>
         <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
@@ -941,7 +1190,7 @@
           <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
         </Property>
         <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
-          <Float value="2"/>
+          <Float value="1"/>
         </Property>
         <Property name="MapFaceColor" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -973,7 +1222,7 @@
           <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
         </Property>
         <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
-          <Float value="2"/>
+          <Float value="1"/>
         </Property>
         <Property name="ResetClipPlane" type="App::PropertyBool" status="1">
           <Bool value="false"/>
@@ -988,10 +1237,10 @@
           <Integer value="0"/>
         </Property>
         <Property name="ShapeColor" type="App::PropertyColor" status="1">
-          <PropertyColor value="1836416768"/>
+          <PropertyColor value="4289036544"/>
         </Property>
         <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
-          <PropertyMaterial ambientColor="858993408" diffuseColor="1836416768" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
+          <PropertyMaterial ambientColor="858993408" diffuseColor="4289036544" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
         </Property>
         <Property name="ShowInTree" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -1004,7 +1253,7 @@
         </Property>
       </Properties>
     </ViewProvider>
-    <ViewProvider name="Pocket" expanded="1" Extensions="True">
+    <ViewProvider name="Pocket" expanded="0" Extensions="True">
       <Extensions Count="2">
         <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
         </Extension>
@@ -1023,7 +1272,7 @@
         </Property>
         <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
           <ColorList count="1" >
-6d757f00
+ffa58100
           </ColorList>
         </Property>
         <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
@@ -1053,7 +1302,7 @@
           <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
         </Property>
         <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
-          <Float value="2"/>
+          <Float value="1"/>
         </Property>
         <Property name="MapFaceColor" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -1085,7 +1334,7 @@
           <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
         </Property>
         <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
-          <Float value="2"/>
+          <Float value="1"/>
         </Property>
         <Property name="ResetClipPlane" type="App::PropertyBool" status="1">
           <Bool value="false"/>
@@ -1100,10 +1349,10 @@
           <Integer value="0"/>
         </Property>
         <Property name="ShapeColor" type="App::PropertyColor" status="1">
-          <PropertyColor value="1836416768"/>
+          <PropertyColor value="4289036544"/>
         </Property>
         <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
-          <PropertyMaterial ambientColor="858993408" diffuseColor="1836416768" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
+          <PropertyMaterial ambientColor="858993408" diffuseColor="4289036544" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
         </Property>
         <Property name="ShowInTree" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -1273,7 +1522,7 @@
         </Property>
       </Properties>
     </ViewProvider>
-    <ViewProvider name="Pad001" expanded="1" Extensions="True">
+    <ViewProvider name="Pad001" expanded="0" Extensions="True">
       <Extensions Count="2">
         <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
         </Extension>
@@ -1292,7 +1541,7 @@
         </Property>
         <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
           <ColorList count="1" >
-6d757f00
+ffa58100
           </ColorList>
         </Property>
         <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
@@ -1322,7 +1571,7 @@
           <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
         </Property>
         <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
-          <Float value="2"/>
+          <Float value="1"/>
         </Property>
         <Property name="MapFaceColor" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -1354,7 +1603,7 @@
           <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
         </Property>
         <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
-          <Float value="2"/>
+          <Float value="1"/>
         </Property>
         <Property name="ResetClipPlane" type="App::PropertyBool" status="1">
           <Bool value="false"/>
@@ -1369,10 +1618,10 @@
           <Integer value="0"/>
         </Property>
         <Property name="ShapeColor" type="App::PropertyColor" status="1">
-          <PropertyColor value="1836416768"/>
+          <PropertyColor value="4289036544"/>
         </Property>
         <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
-          <PropertyMaterial ambientColor="858993408" diffuseColor="1836416768" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
+          <PropertyMaterial ambientColor="858993408" diffuseColor="4289036544" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
         </Property>
         <Property name="ShowInTree" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -1542,7 +1791,7 @@
         </Property>
       </Properties>
     </ViewProvider>
-    <ViewProvider name="Pocket001" expanded="1" Extensions="True">
+    <ViewProvider name="Pocket001" expanded="0" Extensions="True">
       <Extensions Count="2">
         <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
         </Extension>
@@ -1561,7 +1810,7 @@
         </Property>
         <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
           <ColorList count="1" >
-6d757f00
+ffa58100
           </ColorList>
         </Property>
         <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
@@ -1591,7 +1840,7 @@
           <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
         </Property>
         <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
-          <Float value="2"/>
+          <Float value="1"/>
         </Property>
         <Property name="MapFaceColor" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -1623,7 +1872,7 @@
           <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
         </Property>
         <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
-          <Float value="2"/>
+          <Float value="1"/>
         </Property>
         <Property name="ResetClipPlane" type="App::PropertyBool" status="1">
           <Bool value="false"/>
@@ -1638,10 +1887,10 @@
           <Integer value="0"/>
         </Property>
         <Property name="ShapeColor" type="App::PropertyColor" status="1">
-          <PropertyColor value="1836416768"/>
+          <PropertyColor value="4289036544"/>
         </Property>
         <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
-          <PropertyMaterial ambientColor="858993408" diffuseColor="1836416768" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
+          <PropertyMaterial ambientColor="858993408" diffuseColor="4289036544" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
         </Property>
         <Property name="ShowInTree" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -1654,7 +1903,7 @@
         </Property>
       </Properties>
     </ViewProvider>
-    <ViewProvider name="Boolean" expanded="1" Extensions="True">
+    <ViewProvider name="Boolean" expanded="0" Extensions="True">
       <Extensions Count="3">
         <Extension type="Gui::ViewProviderGeoFeatureGroupExtension" name="ViewProviderGeoFeatureGroupExtension">
         </Extension>
@@ -1674,7 +1923,24 @@
           <Float value="0.2"/>
         </Property>
         <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
-          <ColorList count="1" >
+          <ColorList count="18" >
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
 6d757f00
           </ColorList>
         </Property>
@@ -1708,7 +1974,7 @@
           <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
         </Property>
         <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
-          <Float value="2"/>
+          <Float value="1"/>
         </Property>
         <Property name="MapFaceColor" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -1740,7 +2006,7 @@
           <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
         </Property>
         <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
-          <Float value="2"/>
+          <Float value="1"/>
         </Property>
         <Property name="ResetClipPlane" type="App::PropertyBool" status="1">
           <Bool value="false"/>
@@ -1755,10 +2021,10 @@
           <Integer value="0"/>
         </Property>
         <Property name="ShapeColor" type="App::PropertyColor" status="1">
-          <PropertyColor value="1836416768"/>
+          <PropertyColor value="4289036544"/>
         </Property>
         <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
-          <PropertyMaterial ambientColor="858993408" diffuseColor="1836416768" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
+          <PropertyMaterial ambientColor="858993408" diffuseColor="4289036544" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
         </Property>
         <Property name="ShowInTree" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -1935,7 +2201,43 @@
           <PropertyColor value="255"/>
         </Property>
         <Property name="LineColorArray" type="App::PropertyColorList" status="1">
-          <ColorList count="1" >
+          <ColorList count="37" >
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
 0
           </ColorList>
         </Property>
@@ -1967,7 +2269,27 @@
           <PropertyColor value="255"/>
         </Property>
         <Property name="PointColorArray" type="App::PropertyColorList" status="1">
-          <ColorList count="1" >
+          <ColorList count="21" >
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
 0
           </ColorList>
         </Property>
@@ -2027,8 +2349,25 @@
           <Float value="0.2"/>
         </Property>
         <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
-          <ColorList count="1" >
+          <ColorList count="18" >
 6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+ffa58100
+ffa58100
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+ffa58100
+ffa58100
+ffa58100
           </ColorList>
         </Property>
         <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
@@ -2058,7 +2397,7 @@
           <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
         </Property>
         <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
-          <Float value="2"/>
+          <Float value="1"/>
         </Property>
         <Property name="MapFaceColor" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -2090,7 +2429,7 @@
           <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
         </Property>
         <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
-          <Float value="2"/>
+          <Float value="1"/>
         </Property>
         <Property name="ResetClipPlane" type="App::PropertyBool" status="1">
           <Bool value="false"/>
@@ -2105,10 +2444,10 @@
           <Integer value="0"/>
         </Property>
         <Property name="ShapeColor" type="App::PropertyColor" status="1">
-          <PropertyColor value="1836416768"/>
+          <PropertyColor value="4289036544"/>
         </Property>
         <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
-          <PropertyMaterial ambientColor="858993408" diffuseColor="1836416768" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
+          <PropertyMaterial ambientColor="858993408" diffuseColor="4289036544" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
         </Property>
         <Property name="ShowInTree" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -2139,7 +2478,25 @@
           <Float value="0.2"/>
         </Property>
         <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
-          <ColorList count="1" >
+          <ColorList count="19" >
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+ffa58100
+ffa58100
+6d757f00
+6d757f00
+6d757f00
 6d757f00
           </ColorList>
         </Property>
@@ -2170,7 +2527,7 @@
           <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
         </Property>
         <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
-          <Float value="2"/>
+          <Float value="1"/>
         </Property>
         <Property name="MapFaceColor" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -2202,7 +2559,7 @@
           <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
         </Property>
         <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
-          <Float value="2"/>
+          <Float value="1"/>
         </Property>
         <Property name="ResetClipPlane" type="App::PropertyBool" status="1">
           <Bool value="false"/>
@@ -2217,10 +2574,10 @@
           <Integer value="0"/>
         </Property>
         <Property name="ShapeColor" type="App::PropertyColor" status="1">
-          <PropertyColor value="1836416768"/>
+          <PropertyColor value="4289036544"/>
         </Property>
         <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
-          <PropertyMaterial ambientColor="858993408" diffuseColor="1836416768" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
+          <PropertyMaterial ambientColor="858993408" diffuseColor="4289036544" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
         </Property>
         <Property name="ShowInTree" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -2233,7 +2590,7 @@
         </Property>
       </Properties>
     </ViewProvider>
-    <ViewProvider name="Mirrored" expanded="0" Extensions="True">
+    <ViewProvider name="Fillet001" expanded="0" Extensions="True">
       <Extensions Count="2">
         <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
         </Extension>
@@ -2251,119 +2608,36 @@
           <Float value="0.2"/>
         </Property>
         <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
-          <ColorList count="1" >
+          <ColorList count="30" >
 6d757f00
-          </ColorList>
-        </Property>
-        <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
-          <Integer value="0"/>
-        </Property>
-        <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
-          <Integer value="0"/>
-        </Property>
-        <Property name="ForceMapColors" type="App::PropertyBool" status="1">
-          <Bool value="false"/>
-        </Property>
-        <Property name="IconColor" type="App::PropertyColor" status="1">
-          <PropertyColor value="10838015"/>
-        </Property>
-        <Property name="Lighting" type="App::PropertyEnumeration" status="1">
-          <Integer value="1"/>
-        </Property>
-        <Property name="LineColor" type="App::PropertyColor" status="1">
-          <PropertyColor value="0"/>
-        </Property>
-        <Property name="LineColorArray" type="App::PropertyColorList" status="1">
-          <ColorList count="1" >
-0
-          </ColorList>
-        </Property>
-        <Property name="LineMaterial" type="App::PropertyMaterial" status="33">
-          <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
-        </Property>
-        <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
-          <Float value="2"/>
-        </Property>
-        <Property name="MapFaceColor" type="App::PropertyBool" status="1">
-          <Bool value="true"/>
-        </Property>
-        <Property name="MapLineColor" type="App::PropertyBool" status="1">
-          <Bool value="false"/>
-        </Property>
-        <Property name="MapPointColor" type="App::PropertyBool" status="1">
-          <Bool value="false"/>
-        </Property>
-        <Property name="MapTransparency" type="App::PropertyBool" status="1">
-          <Bool value="false"/>
-        </Property>
-        <Property name="MappedColors" type="App::PropertyColorList" status="83886081">
-          <ColorList file=""/>
-        </Property>
-        <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
-          <Integer value="0"/>
-        </Property>
-        <Property name="PointColor" type="App::PropertyColor" status="1">
-          <PropertyColor value="0"/>
-        </Property>
-        <Property name="PointColorArray" type="App::PropertyColorList" status="1">
-          <ColorList count="1" >
-0
-          </ColorList>
-        </Property>
-        <Property name="PointMaterial" type="App::PropertyMaterial" status="33">
-          <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
-        </Property>
-        <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
-          <Float value="2"/>
-        </Property>
-        <Property name="ResetClipPlane" type="App::PropertyBool" status="1">
-          <Bool value="false"/>
-        </Property>
-        <Property name="Selectable" type="App::PropertyBool" status="1">
-          <Bool value="true"/>
-        </Property>
-        <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
-          <Integer value="0"/>
-        </Property>
-        <Property name="ShadowStyle" type="App::PropertyEnumeration" status="1">
-          <Integer value="0"/>
-        </Property>
-        <Property name="ShapeColor" type="App::PropertyColor" status="1">
-          <PropertyColor value="1836416768"/>
-        </Property>
-        <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
-          <PropertyMaterial ambientColor="858993408" diffuseColor="1836416768" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
-        </Property>
-        <Property name="ShowInTree" type="App::PropertyBool" status="1">
-          <Bool value="true"/>
-        </Property>
-        <Property name="Transparency" type="App::PropertyPercent" status="1">
-          <Integer value="0"/>
-        </Property>
-        <Property name="Visibility" type="App::PropertyBool" status="1">
-          <Bool value="true"/>
-        </Property>
-      </Properties>
-    </ViewProvider>
-    <ViewProvider name="MultiTransform" expanded="0" Extensions="True">
-      <Extensions Count="2">
-        <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
-        </Extension>
-        <Extension type="PartGui::ViewProviderAttachExtension" name="ViewProviderAttachExtension">
-        </Extension>
-      </Extensions>
-      <Properties Count="32" TransientCount="0">
-        <Property name="AngularDeflection" type="App::PropertyAngle" status="1">
-          <Float value="28.65"/>
-        </Property>
-        <Property name="BoundingBox" type="App::PropertyBool" status="1">
-          <Bool value="false"/>
-        </Property>
-        <Property name="Deviation" type="App::PropertyFloatConstraint" status="1">
-          <Float value="0.2"/>
-        </Property>
-        <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
-          <ColorList count="1" >
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+ffa58100
+ffa58100
+ffa58100
+6d757f00
+6d757f00
+ffa58100
+6d757f00
+ffa58100
+6d757f00
+ffa58100
+6d757f00
+ffa58100
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
 6d757f00
           </ColorList>
         </Property>
@@ -2394,7 +2668,7 @@
           <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
         </Property>
         <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
-          <Float value="2"/>
+          <Float value="1"/>
         </Property>
         <Property name="MapFaceColor" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -2426,7 +2700,7 @@
           <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
         </Property>
         <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
-          <Float value="2"/>
+          <Float value="1"/>
         </Property>
         <Property name="ResetClipPlane" type="App::PropertyBool" status="1">
           <Bool value="false"/>
@@ -2441,10 +2715,10 @@
           <Integer value="0"/>
         </Property>
         <Property name="ShapeColor" type="App::PropertyColor" status="1">
-          <PropertyColor value="1836416768"/>
+          <PropertyColor value="4289036544"/>
         </Property>
         <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
-          <PropertyMaterial ambientColor="858993408" diffuseColor="1836416768" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
+          <PropertyMaterial ambientColor="858993408" diffuseColor="4289036544" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
         </Property>
         <Property name="ShowInTree" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -2453,7 +2727,7 @@
           <Integer value="0"/>
         </Property>
         <Property name="Visibility" type="App::PropertyBool" status="1">
-          <Bool value="true"/>
+          <Bool value="false"/>
         </Property>
       </Properties>
     </ViewProvider>
@@ -2567,7 +2841,7 @@
         </Property>
       </Properties>
     </ViewProvider>
-    <ViewProvider name="Fillet" expanded="0" Extensions="True">
+    <ViewProvider name="Hole" expanded="0" Extensions="True">
       <Extensions Count="2">
         <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
         </Extension>
@@ -2585,8 +2859,104 @@
           <Float value="0.2"/>
         </Property>
         <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
-          <ColorList count="1" >
+          <ColorList count="97" >
 6d757f00
+ffa58100
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+6d757f00
+ffa58100
+ffa58100
+6d757f00
+ffa58100
+6d757f00
+ffa58100
+6d757f00
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+6d757f00
+6d757f00
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+6d757f00
+6d757f00
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+6d757f00
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
           </ColorList>
         </Property>
         <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
@@ -2616,7 +2986,7 @@
           <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
         </Property>
         <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
-          <Float value="2"/>
+          <Float value="1"/>
         </Property>
         <Property name="MapFaceColor" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -2648,7 +3018,7 @@
           <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
         </Property>
         <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
-          <Float value="2"/>
+          <Float value="1"/>
         </Property>
         <Property name="ResetClipPlane" type="App::PropertyBool" status="1">
           <Bool value="false"/>
@@ -2663,10 +3033,122 @@
           <Integer value="0"/>
         </Property>
         <Property name="ShapeColor" type="App::PropertyColor" status="1">
-          <PropertyColor value="1836416768"/>
+          <PropertyColor value="4289036544"/>
         </Property>
         <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
-          <PropertyMaterial ambientColor="858993408" diffuseColor="1836416768" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
+          <PropertyMaterial ambientColor="858993408" diffuseColor="4289036544" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
+        </Property>
+        <Property name="ShowInTree" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="Transparency" type="App::PropertyPercent" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="Visibility" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+      </Properties>
+    </ViewProvider>
+    <ViewProvider name="Fillet" expanded="0" Extensions="True">
+      <Extensions Count="2">
+        <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+        </Extension>
+        <Extension type="PartGui::ViewProviderAttachExtension" name="ViewProviderAttachExtension">
+        </Extension>
+      </Extensions>
+      <Properties Count="32" TransientCount="0">
+        <Property name="AngularDeflection" type="App::PropertyAngle" status="1">
+          <Float value="28.65"/>
+        </Property>
+        <Property name="BoundingBox" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="Deviation" type="App::PropertyFloatConstraint" status="1">
+          <Float value="0.2"/>
+        </Property>
+        <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
+          <ColorList count="1" >
+ffa58100
+          </ColorList>
+        </Property>
+        <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="ForceMapColors" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="IconColor" type="App::PropertyColor" status="1">
+          <PropertyColor value="2275082495"/>
+        </Property>
+        <Property name="Lighting" type="App::PropertyEnumeration" status="1">
+          <Integer value="1"/>
+        </Property>
+        <Property name="LineColor" type="App::PropertyColor" status="1">
+          <PropertyColor value="0"/>
+        </Property>
+        <Property name="LineColorArray" type="App::PropertyColorList" status="1">
+          <ColorList count="1" >
+0
+          </ColorList>
+        </Property>
+        <Property name="LineMaterial" type="App::PropertyMaterial" status="33">
+          <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
+        </Property>
+        <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
+          <Float value="1"/>
+        </Property>
+        <Property name="MapFaceColor" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="MapLineColor" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="MapPointColor" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="MapTransparency" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="MappedColors" type="App::PropertyColorList" status="83886081">
+          <ColorList file=""/>
+        </Property>
+        <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="PointColor" type="App::PropertyColor" status="1">
+          <PropertyColor value="0"/>
+        </Property>
+        <Property name="PointColorArray" type="App::PropertyColorList" status="1">
+          <ColorList count="1" >
+0
+          </ColorList>
+        </Property>
+        <Property name="PointMaterial" type="App::PropertyMaterial" status="33">
+          <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
+        </Property>
+        <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
+          <Float value="1"/>
+        </Property>
+        <Property name="ResetClipPlane" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="Selectable" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="ShadowStyle" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="ShapeColor" type="App::PropertyColor" status="1">
+          <PropertyColor value="4289036544"/>
+        </Property>
+        <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
+          <PropertyMaterial ambientColor="858993408" diffuseColor="4289036544" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
         </Property>
         <Property name="ShowInTree" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -2711,7 +3193,7 @@
           <Bool value="false"/>
         </Property>
         <Property name="IconColor" type="App::PropertyColor" status="1">
-          <PropertyColor value="2317823"/>
+          <PropertyColor value="2885689087"/>
         </Property>
         <Property name="Lighting" type="App::PropertyEnumeration" status="1">
           <Integer value="1"/>
@@ -2791,16 +3273,14 @@
         </Property>
       </Properties>
     </ViewProvider>
-    <ViewProvider name="Boolean001" expanded="0" Extensions="True">
-      <Extensions Count="3">
-        <Extension type="Gui::ViewProviderGeoFeatureGroupExtension" name="ViewProviderGeoFeatureGroupExtension">
-        </Extension>
+    <ViewProvider name="Mirrored" expanded="0" Extensions="True">
+      <Extensions Count="2">
         <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
         </Extension>
         <Extension type="PartGui::ViewProviderAttachExtension" name="ViewProviderAttachExtension">
         </Extension>
       </Extensions>
-      <Properties Count="33" TransientCount="0">
+      <Properties Count="32" TransientCount="0">
         <Property name="AngularDeflection" type="App::PropertyAngle" status="1">
           <Float value="28.65"/>
         </Property>
@@ -2815,11 +3295,215 @@
 6d757f00
           </ColorList>
         </Property>
-        <Property name="Display" type="App::PropertyEnumeration" status="1">
+        <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
           <Integer value="0"/>
         </Property>
-        <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+        <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="ForceMapColors" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="IconColor" type="App::PropertyColor" status="1">
+          <PropertyColor value="872460031"/>
+        </Property>
+        <Property name="Lighting" type="App::PropertyEnumeration" status="1">
           <Integer value="1"/>
+        </Property>
+        <Property name="LineColor" type="App::PropertyColor" status="1">
+          <PropertyColor value="0"/>
+        </Property>
+        <Property name="LineColorArray" type="App::PropertyColorList" status="1">
+          <ColorList count="1" >
+0
+          </ColorList>
+        </Property>
+        <Property name="LineMaterial" type="App::PropertyMaterial" status="33">
+          <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
+        </Property>
+        <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
+          <Float value="2"/>
+        </Property>
+        <Property name="MapFaceColor" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="MapLineColor" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="MapPointColor" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="MapTransparency" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="MappedColors" type="App::PropertyColorList" status="83886081">
+          <ColorList file=""/>
+        </Property>
+        <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="PointColor" type="App::PropertyColor" status="1">
+          <PropertyColor value="0"/>
+        </Property>
+        <Property name="PointColorArray" type="App::PropertyColorList" status="1">
+          <ColorList count="1" >
+0
+          </ColorList>
+        </Property>
+        <Property name="PointMaterial" type="App::PropertyMaterial" status="33">
+          <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
+        </Property>
+        <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
+          <Float value="2"/>
+        </Property>
+        <Property name="ResetClipPlane" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="Selectable" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="ShadowStyle" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="ShapeColor" type="App::PropertyColor" status="1">
+          <PropertyColor value="1836416768"/>
+        </Property>
+        <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
+          <PropertyMaterial ambientColor="858993408" diffuseColor="1836416768" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
+        </Property>
+        <Property name="ShowInTree" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="Transparency" type="App::PropertyPercent" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="Visibility" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+      </Properties>
+    </ViewProvider>
+    <ViewProvider name="MultiTransform" expanded="0" Extensions="True">
+      <Extensions Count="2">
+        <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+        </Extension>
+        <Extension type="PartGui::ViewProviderAttachExtension" name="ViewProviderAttachExtension">
+        </Extension>
+      </Extensions>
+      <Properties Count="32" TransientCount="0">
+        <Property name="AngularDeflection" type="App::PropertyAngle" status="1">
+          <Float value="28.65"/>
+        </Property>
+        <Property name="BoundingBox" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="Deviation" type="App::PropertyFloatConstraint" status="1">
+          <Float value="0.2"/>
+        </Property>
+        <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
+          <ColorList count="96" >
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+6d757f00
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+6d757f00
+ffa58100
+ffa58100
+6d757f00
+6d757f00
+ffa58100
+6d757f00
+ffa58100
+ffa58100
+ffa58100
+6d757f00
+ffa58100
+6d757f00
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+6d757f00
+6d757f00
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+6d757f00
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+ffa58100
+          </ColorList>
+        </Property>
+        <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
         </Property>
         <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
           <Integer value="0"/>
@@ -2845,7 +3529,7 @@
           <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
         </Property>
         <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
-          <Float value="2"/>
+          <Float value="1"/>
         </Property>
         <Property name="MapFaceColor" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -2877,10 +3561,146 @@
           <PropertyMaterial ambientColor="858993408" diffuseColor="0" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
         </Property>
         <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
-          <Float value="2"/>
+          <Float value="1"/>
         </Property>
         <Property name="ResetClipPlane" type="App::PropertyBool" status="1">
           <Bool value="false"/>
+        </Property>
+        <Property name="Selectable" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="ShadowStyle" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="ShapeColor" type="App::PropertyColor" status="1">
+          <PropertyColor value="4289036544"/>
+        </Property>
+        <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
+          <PropertyMaterial ambientColor="858993408" diffuseColor="4289036544" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
+        </Property>
+        <Property name="ShowInTree" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="Transparency" type="App::PropertyPercent" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="Visibility" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+      </Properties>
+    </ViewProvider>
+    <ViewProvider name="Sketch006" expanded="0" Extensions="True">
+      <Extensions Count="2">
+        <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+        </Extension>
+        <Extension type="PartGui::ViewProviderAttachExtension" name="ViewProviderAttachExtension">
+        </Extension>
+      </Extensions>
+      <Properties Count="47" TransientCount="0">
+        <Property name="AngularDeflection" type="App::PropertyAngle" status="1">
+          <Float value="28.65"/>
+        </Property>
+        <Property name="Autoconstraints" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="AvoidRedundant" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="BoundingBox" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="Deviation" type="App::PropertyFloatConstraint" status="1">
+          <Float value="0.2"/>
+        </Property>
+        <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
+          <ColorList count="1" >
+6d757f00
+          </ColorList>
+        </Property>
+        <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+          <Integer value="1"/>
+        </Property>
+        <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="EditingWorkbench" type="App::PropertyString" status="1">
+          <String value="SketcherWorkbench"/>
+        </Property>
+        <Property name="ForceMapColors" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="GridAutoSize" type="App::PropertyBool" status="67108865">
+          <Bool value="false"/>
+        </Property>
+        <Property name="GridSize" type="App::PropertyLength" status="1">
+          <Float value="10"/>
+        </Property>
+        <Property name="GridSnap" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="GridStyle" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="HideDependent" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="Lighting" type="App::PropertyEnumeration" status="1">
+          <Integer value="1"/>
+        </Property>
+        <Property name="LineColor" type="App::PropertyColor" status="1">
+          <PropertyColor value="911964415"/>
+        </Property>
+        <Property name="LineColorArray" type="App::PropertyColorList" status="1">
+          <ColorList count="1" >
+365b78ff
+          </ColorList>
+        </Property>
+        <Property name="LineMaterial" type="App::PropertyMaterial" status="33">
+          <PropertyMaterial ambientColor="858993408" diffuseColor="911964415" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
+        </Property>
+        <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
+          <Float value="2"/>
+        </Property>
+        <Property name="MapFaceColor" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="MapLineColor" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="MapPointColor" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="MapTransparency" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="MappedColors" type="App::PropertyColorList" status="83886081">
+          <ColorList file=""/>
+        </Property>
+        <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="PointColor" type="App::PropertyColor" status="1">
+          <PropertyColor value="2521630207"/>
+        </Property>
+        <Property name="PointColorArray" type="App::PropertyColorList" status="1">
+          <ColorList count="1" >
+964d05ff
+          </ColorList>
+        </Property>
+        <Property name="PointMaterial" type="App::PropertyMaterial" status="33">
+          <PropertyMaterial ambientColor="858993408" diffuseColor="2521630207" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
+        </Property>
+        <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
+          <Float value="4"/>
+        </Property>
+        <Property name="ResetClipPlane" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="RestoreCamera" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
         </Property>
         <Property name="Selectable" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -2897,7 +3717,25 @@
         <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
           <PropertyMaterial ambientColor="858993408" diffuseColor="1836416768" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
         </Property>
+        <Property name="ShowGrid" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
         <Property name="ShowInTree" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="ShowLinks" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="ShowOnlyInEditMode" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="ShowSupport" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="TempoVis" type="App::PropertyPythonObject" status="1">
+          <Python  json="yes" value="null"/>
+        </Property>
+        <Property name="TightGrid" type="App::PropertyBool" status="1">
           <Bool value="true"/>
         </Property>
         <Property name="Transparency" type="App::PropertyPercent" status="1">
@@ -2906,6 +3744,166 @@
         <Property name="Visibility" type="App::PropertyBool" status="1">
           <Bool value="false"/>
         </Property>
+        <Property name="maxNumberOfLines" type="App::PropertyInteger" status="1">
+          <Integer value="10000"/>
+        </Property>
+      </Properties>
+    </ViewProvider>
+    <ViewProvider name="Sketch005" expanded="0" Extensions="True">
+      <Extensions Count="2">
+        <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
+        </Extension>
+        <Extension type="PartGui::ViewProviderAttachExtension" name="ViewProviderAttachExtension">
+        </Extension>
+      </Extensions>
+      <Properties Count="47" TransientCount="0">
+        <Property name="AngularDeflection" type="App::PropertyAngle" status="1">
+          <Float value="28.65"/>
+        </Property>
+        <Property name="Autoconstraints" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="AvoidRedundant" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="BoundingBox" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="Deviation" type="App::PropertyFloatConstraint" status="1">
+          <Float value="0.2"/>
+        </Property>
+        <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
+          <ColorList count="1" >
+6d757f00
+          </ColorList>
+        </Property>
+        <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+          <Integer value="1"/>
+        </Property>
+        <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="EditingWorkbench" type="App::PropertyString" status="1">
+          <String value="SketcherWorkbench"/>
+        </Property>
+        <Property name="ForceMapColors" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="GridAutoSize" type="App::PropertyBool" status="67108865">
+          <Bool value="false"/>
+        </Property>
+        <Property name="GridSize" type="App::PropertyLength" status="1">
+          <Float value="10"/>
+        </Property>
+        <Property name="GridSnap" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="GridStyle" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="HideDependent" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="Lighting" type="App::PropertyEnumeration" status="1">
+          <Integer value="1"/>
+        </Property>
+        <Property name="LineColor" type="App::PropertyColor" status="1">
+          <PropertyColor value="911964415"/>
+        </Property>
+        <Property name="LineColorArray" type="App::PropertyColorList" status="1">
+          <ColorList count="1" >
+365b78ff
+          </ColorList>
+        </Property>
+        <Property name="LineMaterial" type="App::PropertyMaterial" status="33">
+          <PropertyMaterial ambientColor="858993408" diffuseColor="911964415" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
+        </Property>
+        <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
+          <Float value="2"/>
+        </Property>
+        <Property name="MapFaceColor" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="MapLineColor" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="MapPointColor" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="MapTransparency" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="MappedColors" type="App::PropertyColorList" status="83886081">
+          <ColorList file=""/>
+        </Property>
+        <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="PointColor" type="App::PropertyColor" status="1">
+          <PropertyColor value="2521630207"/>
+        </Property>
+        <Property name="PointColorArray" type="App::PropertyColorList" status="1">
+          <ColorList count="1" >
+964d05ff
+          </ColorList>
+        </Property>
+        <Property name="PointMaterial" type="App::PropertyMaterial" status="33">
+          <PropertyMaterial ambientColor="858993408" diffuseColor="2521630207" specularColor="0" emissiveColor="0" shininess="1" transparency="0"/>
+        </Property>
+        <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
+          <Float value="4"/>
+        </Property>
+        <Property name="ResetClipPlane" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="RestoreCamera" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="Selectable" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="ShadowStyle" type="App::PropertyEnumeration" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="ShapeColor" type="App::PropertyColor" status="1">
+          <PropertyColor value="1836416768"/>
+        </Property>
+        <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
+          <PropertyMaterial ambientColor="858993408" diffuseColor="1836416768" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
+        </Property>
+        <Property name="ShowGrid" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="ShowInTree" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="ShowLinks" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="ShowOnlyInEditMode" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="ShowSupport" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="TempoVis" type="App::PropertyPythonObject" status="1">
+          <Python  json="yes" value="null"/>
+        </Property>
+        <Property name="TightGrid" type="App::PropertyBool" status="1">
+          <Bool value="true"/>
+        </Property>
+        <Property name="Transparency" type="App::PropertyPercent" status="1">
+          <Integer value="0"/>
+        </Property>
+        <Property name="Visibility" type="App::PropertyBool" status="1">
+          <Bool value="false"/>
+        </Property>
+        <Property name="maxNumberOfLines" type="App::PropertyInteger" status="1">
+          <Integer value="10000"/>
+        </Property>
       </Properties>
     </ViewProvider>
   </ViewProviderData>
@@ -2913,13 +3911,13 @@
 <![CDATA[
 OrthographicCamera {
   viewportMapping ADJUST_CAMERA
-  position 29.946884 26.38146 57.80278
-  orientation -0.15981774 -0.39553887 -0.90443754  3.7803578
-  nearDistance 4.1251049
-  farDistance 87.349777
+  position 24.336306 -26.044025 57.963577
+  orientation 0.74290609 0.30772209 0.59447283  1.2171158
+  nearDistance 2.5060554
+  farDistance 83.997612
   aspectRatio 1
-  focalDistance 36.170361
-  height 72.340721
+  focalDistance 43.211102
+  height 86.422234
 
 }
 ## overrideMode: As Is]]>
