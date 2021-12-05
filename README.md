@@ -12,7 +12,22 @@ Notes:
   and 2 into their own files.
 - Stage 2 usually has a mechanical simulation component. This part of the challenge
   will be worked on once the modelling parts are as complete as possible.
-
+- All FreeCAD files are saved in Directory format for better 
+  behavior under git.
+- All files confirmed working with the following FC version:
+  ```
+  OS: Manjaro Linux (XFCE/xfce)
+  Word size of OS: 64-bit
+  Word size of FreeCAD: 64-bit
+  Version: 2021.1015.24301 +4280 (Git) AppImage
+  Build type: Release
+  Branch: LinkDaily
+  Hash: 556c87868ea46796242156e9f73eae98259794b7
+  Python version: 3.9.7
+  Qt version: 5.12.9
+  Coin version: 4.0.1
+  OCC version: 7.5.2
+  ```
 
 Progress table:
 
