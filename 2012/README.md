@@ -6,4 +6,4 @@
 
 ## Notes
 
-x
+Fillets in part 2 are differ slightly from source. 
