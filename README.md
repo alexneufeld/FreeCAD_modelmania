@@ -50,11 +50,11 @@ Progress table:
 | 2006 | :black_square_button:  | :black_square_button:  |
 | 2007 | :black_square_button:  | :black_square_button:  |
 | 2008 | :large_orange_diamond: | :large_orange_diamond: |
-| 2009 | :heavy_check_mark:     | :black_square_button:  |
+| 2009 | :heavy_check_mark:     | N/A                    |
 | 2010 | :heavy_check_mark:     | :heavy_check_mark:     |
 | 2011 | :heavy_check_mark:     | :heavy_check_mark:     |
 | 2012 | :heavy_check_mark:     | :heavy_check_mark:     |
-| 2013 | :red_circle:           | :black_square_button:  |
+| 2013 | :heavy_check_mark:     | :heavy_check_mark:     |
 | 2014 | :heavy_check_mark:     | :heavy_check_mark:     |
 | 2015 | :heavy_check_mark:     | :heavy_check_mark:     |
 | 2016 | :heavy_check_mark:     | :heavy_check_mark:     |
