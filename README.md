@@ -34,7 +34,7 @@ Progress table:
 |       Symbol           |          Indicates                                 |
 |------------------------|----------------------------------------------------|
 | :heavy_check_mark:     | Completed with no major problems                   |
-| :large_orange_diamond: | Complete with minor changes made to model          |
+| :large_orange_diamond: | Complete with some changes made to model           |
 | :red_circle:           | Incomplete, usually due to FreeCAD OCC limitations |
 | :black_square_button:  | Incomplete, not attempted yet                      |
 
@@ -49,7 +49,7 @@ Progress table:
 | 2005 | :heavy_check_mark:     | :heavy_check_mark:     |
 | 2006 | :black_square_button:  | :black_square_button:  |
 | 2007 | :black_square_button:  | :black_square_button:  |
-| 2008 | :red_circle:           | :black_square_button:  |
+| 2008 | :large_orange_diamond: | :large_orange_diamond: |
 | 2009 | :heavy_check_mark:     | :black_square_button:  |
 | 2010 | :heavy_check_mark:     | :heavy_check_mark:     |
 | 2011 | :heavy_check_mark:     | :heavy_check_mark:     |

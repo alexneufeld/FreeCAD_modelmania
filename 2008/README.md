@@ -6,4 +6,6 @@
 
 ## Notes
 
-x
+Some fillets omitted on these ones. OCC really doesn't like the 
+"filleted bar tangential to cylinder" geometry present in this 
+years challenge. 

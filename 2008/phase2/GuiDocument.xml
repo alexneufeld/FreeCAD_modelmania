@@ -4,7 +4,9 @@
 -->
 <Document SchemaVersion="1" FileVersion="2" Split="0" HasExpansion="1">
 <Expand  count="1">
-  <Expand name="Body"/>
+  <Expand name="Body" count="1">
+    <Expand name="Pad"/>
+  </Expand>
 </Expand>
 >
   <ViewProviderData Count="18">
@@ -235,7 +237,7 @@
         </Property>
         <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
           <ColorList count="1" >
-ababff00
+e8ff9900
           </ColorList>
         </Property>
         <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
@@ -312,10 +314,10 @@ ababff00
           <Integer value="0"/>
         </Property>
         <Property name="ShapeColor" type="App::PropertyColor" status="1">
-          <PropertyColor value="2880175872"/>
+          <PropertyColor value="3909064960"/>
         </Property>
         <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
-          <PropertyMaterial ambientColor="858993408" diffuseColor="2880175872" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
+          <PropertyMaterial ambientColor="858993408" diffuseColor="3909064960" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
         </Property>
         <Property name="ShowInTree" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -861,30 +863,30 @@ ababff00
 ababff00
 ababff00
 ababff00
-ababff00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
+e8ff9900
 ababff00
 ababff00
 ababff00
 ababff00
 ababff00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
 ababff00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
+ababff00
+e8ff9900
+e8ff9900
+e8ff9900
+e8ff9900
+ababff00
+ababff00
+ababff00
+e8ff9900
+ababff00
+ababff00
+ababff00
+e8ff9900
+e8ff9900
+e8ff9900
+e8ff9900
+ababff00
 ababff00
 ababff00
           </ColorList>
@@ -963,10 +965,10 @@ ababff00
           <Integer value="0"/>
         </Property>
         <Property name="ShapeColor" type="App::PropertyColor" status="1">
-          <PropertyColor value="2880175872"/>
+          <PropertyColor value="3909064960"/>
         </Property>
         <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
-          <PropertyMaterial ambientColor="858993408" diffuseColor="2880175872" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
+          <PropertyMaterial ambientColor="858993408" diffuseColor="3909064960" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
         </Property>
         <Property name="ShowInTree" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -979,7 +981,7 @@ ababff00
         </Property>
       </Properties>
     </ViewProvider>
-    <ViewProvider name="Pad" expanded="0" Extensions="True">
+    <ViewProvider name="Pad" expanded="1" Extensions="True">
       <Extensions Count="2">
         <Extension type="Gui::ViewProviderLinkObserver" name="ViewProviderLinkObserver">
         </Extension>
@@ -998,7 +1000,7 @@ ababff00
         </Property>
         <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
           <ColorList count="1" >
-ababff00
+e8ff9900
           </ColorList>
         </Property>
         <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
@@ -1075,10 +1077,10 @@ ababff00
           <Integer value="0"/>
         </Property>
         <Property name="ShapeColor" type="App::PropertyColor" status="1">
-          <PropertyColor value="2880175872"/>
+          <PropertyColor value="3909064960"/>
         </Property>
         <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
-          <PropertyMaterial ambientColor="858993408" diffuseColor="2880175872" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
+          <PropertyMaterial ambientColor="858993408" diffuseColor="3909064960" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
         </Property>
         <Property name="ShowInTree" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -1110,26 +1112,26 @@ ababff00
         </Property>
         <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
           <ColorList count="20" >
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
+ababff00
+ababff00
+ababff00
+ababff00
+ababff00
+ababff00
+ababff00
+ababff00
+ababff00
+ababff00
+ababff00
+ababff00
+ababff00
+ababff00
+ababff00
+ababff00
+ababff00
+ababff00
+ababff00
+ababff00
           </ColorList>
         </Property>
         <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
@@ -1206,10 +1208,10 @@ ababff00
           <Integer value="0"/>
         </Property>
         <Property name="ShapeColor" type="App::PropertyColor" status="1">
-          <PropertyColor value="2880175872"/>
+          <PropertyColor value="3909064960"/>
         </Property>
         <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
-          <PropertyMaterial ambientColor="858993408" diffuseColor="2880175872" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
+          <PropertyMaterial ambientColor="858993408" diffuseColor="3909064960" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
         </Property>
         <Property name="ShowInTree" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -1398,28 +1400,28 @@ ababff00
         </Property>
         <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
           <ColorList count="22" >
-6d757f00
 ababff00
-6d757f00
-6d757f00
-6d757f00
+e8ff9900
 ababff00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
 ababff00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
-6d757f00
+ababff00
+e8ff9900
+ababff00
+ababff00
+ababff00
+ababff00
+ababff00
+e8ff9900
+ababff00
+ababff00
+ababff00
+ababff00
+ababff00
+ababff00
+ababff00
+ababff00
+ababff00
+ababff00
           </ColorList>
         </Property>
         <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
@@ -1496,10 +1498,10 @@ ababff00
           <Integer value="0"/>
         </Property>
         <Property name="ShapeColor" type="App::PropertyColor" status="1">
-          <PropertyColor value="2880175872"/>
+          <PropertyColor value="3909064960"/>
         </Property>
         <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
-          <PropertyMaterial ambientColor="858993408" diffuseColor="2880175872" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
+          <PropertyMaterial ambientColor="858993408" diffuseColor="3909064960" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
         </Property>
         <Property name="ShowInTree" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -1641,7 +1643,7 @@ ffd70099
         </Property>
         <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
           <ColorList count="1" >
-ababff00
+e8ff9900
           </ColorList>
         </Property>
         <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
@@ -1718,10 +1720,10 @@ ababff00
           <Integer value="0"/>
         </Property>
         <Property name="ShapeColor" type="App::PropertyColor" status="1">
-          <PropertyColor value="2880175872"/>
+          <PropertyColor value="3909064960"/>
         </Property>
         <Property name="ShapeMaterial" type="App::PropertyMaterial" status="33">
-          <PropertyMaterial ambientColor="858993408" diffuseColor="2880175872" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
+          <PropertyMaterial ambientColor="858993408" diffuseColor="3909064960" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0"/>
         </Property>
         <Property name="ShowInTree" type="App::PropertyBool" status="1">
           <Bool value="true"/>
@@ -1739,10 +1741,10 @@ ababff00
 <![CDATA[
 OrthographicCamera {
   viewportMapping ADJUST_CAMERA
-  position 90.392693 -30.385384 43.671082
-  orientation 0.74290609 0.30772209 0.59447283  1.2171158
-  nearDistance 8.622488
-  farDistance 143.95306
+  position 46.386921 -40.275455 53.561153
+  orientation 0.99999976 0 0  0.7853983
+  nearDistance 39.796162
+  farDistance 113.95482
   aspectRatio 1
   focalDistance 76.220207
   height 102.18387
