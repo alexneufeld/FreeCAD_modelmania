@@ -6,4 +6,6 @@
 
 ## Notes
 
-x
+### Phase 1:
+
+Some of the fillets were made slightly smaller to prevent geometry errors.
