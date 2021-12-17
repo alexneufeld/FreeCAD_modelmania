@@ -14,6 +14,8 @@ Notes:
   will be worked on once the modelling parts are as complete as possible.
 - All FreeCAD files are saved in Directory format for better 
   behavior under git.
+- This repository has a growing amount of mesh and brep data. Except `git clone`
+  to be slow.  
 - All files confirmed working with the following FC version:
   ```
   OS: Manjaro Linux (XFCE/xfce)
@@ -39,27 +41,27 @@ Progress table:
 | :black_square_button:  | Incomplete, not attempted yet                      |
 
 
-| Year |          Stage1        |        Stage2          |
-|------|------------------------|------------------------|
-| 2000 | :red_circle:           | :black_square_button:  |
-| 2001 | :heavy_check_mark:     | :black_square_button:  |
-| 2002 | :heavy_check_mark:     | :black_square_button:  |
-| 2003 | :heavy_check_mark:     | :heavy_check_mark:     |
-| 2004 | :black_square_button:  | :black_square_button:  |
-| 2005 | :heavy_check_mark:     | :heavy_check_mark:     |
-| 2006 | :heavy_check_mark:     | :black_square_button:  |
-| 2007 | :heavy_check_mark:     | :heavy_check_mark:     |
-| 2008 | :large_orange_diamond: | :large_orange_diamond: |
-| 2009 | :heavy_check_mark:     | N/A                    |
-| 2010 | :heavy_check_mark:     | :heavy_check_mark:     |
-| 2011 | :heavy_check_mark:     | :heavy_check_mark:     |
-| 2012 | :heavy_check_mark:     | :heavy_check_mark:     |
-| 2013 | :heavy_check_mark:     | :heavy_check_mark:     |
-| 2014 | :heavy_check_mark:     | :heavy_check_mark:     |
-| 2015 | :heavy_check_mark:     | :heavy_check_mark:     |
-| 2016 | :heavy_check_mark:     | :heavy_check_mark:     |
-| 2017 | :heavy_check_mark:     | :heavy_check_mark:     |
-| 2018 | :heavy_check_mark:     | :large_orange_diamond: |
-| 2019 | :heavy_check_mark:     | :heavy_check_mark:     |
-| 2020 | :heavy_check_mark:     | :heavy_check_mark:     |
-| 2021 | :heavy_check_mark:     | N/A                    |
+| Year |          Stage1        |        Stage2          |       Simulation       |
+|------|------------------------|------------------------|------------------------|
+| 2000 | :red_circle:           | :black_square_button:  | N/A                    |
+| 2001 | :heavy_check_mark:     | :black_square_button:  | N/A                    |
+| 2002 | :heavy_check_mark:     | :black_square_button:  | N/A                    |
+| 2003 | :heavy_check_mark:     | :heavy_check_mark:     | N/A                    |
+| 2004 | :heavy_check_mark:     | :heavy_check_mark:     | N/A                    |
+| 2005 | :heavy_check_mark:     | :heavy_check_mark:     | N/A                    |
+| 2006 | :heavy_check_mark:     | :black_square_button:  | N/A                    |
+| 2007 | :heavy_check_mark:     | :heavy_check_mark:     | N/A                    |
+| 2008 | :large_orange_diamond: | :large_orange_diamond: | :black_square_button:  |
+| 2009 | :heavy_check_mark:     | N/A                    | :black_square_button:  |
+| 2010 | :heavy_check_mark:     | :heavy_check_mark:     | :black_square_button:  |
+| 2011 | :heavy_check_mark:     | :heavy_check_mark:     | :black_square_button:  |
+| 2012 | :heavy_check_mark:     | :heavy_check_mark:     | :black_square_button:  |
+| 2013 | :heavy_check_mark:     | :heavy_check_mark:     | :black_square_button:  |
+| 2014 | :heavy_check_mark:     | :heavy_check_mark:     | :black_square_button:  |
+| 2015 | :heavy_check_mark:     | :heavy_check_mark:     | :black_square_button:  |
+| 2016 | :heavy_check_mark:     | :heavy_check_mark:     | :black_square_button:  |
+| 2017 | :heavy_check_mark:     | :heavy_check_mark:     | :black_square_button:  |
+| 2018 | :heavy_check_mark:     | :large_orange_diamond: | :black_square_button:  |
+| 2019 | :heavy_check_mark:     | :heavy_check_mark:     | :black_square_button:  |
+| 2020 | :heavy_check_mark:     | :heavy_check_mark:     | :black_square_button:  |
+| 2021 | :heavy_check_mark:     | N/A                    | :heavy_check_mark:     |
