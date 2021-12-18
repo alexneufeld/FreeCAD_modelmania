@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="MaterialSolid">
+  <Properties Count="8" TransientCount="0">
+    <Property name="Category" type="App::PropertyEnumeration" group="Material" attr="0" ro="0" hide="0" docID="21" status="2097152">
+      <Integer value="0" CustomEnum="true"/>
+      <CustomEnumList count="2">
+<Enum value="Solid"/>
+<Enum value="Fluid"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="MaterialSolid"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap">
+      <Map count="13">
+<Item key="AuthorAndLicense" value="Aluminum-6061-T6"/>
+<Item key="CardName" value="Aluminum-6061-T6"/>
+<Item key="Density" value="2700 kg/m^3"/>
+<Item key="Description" value="Precipitation-hardened, Nonferrous Aluminum alloy"/>
+<Item key="Father" value="Metal"/>
+<Item key="KindOfMaterial" value="Aluminium"/>
+<Item key="KindOfMaterialDE" value="Aluminium"/>
+<Item key="Name" value="Aluminum 6061-T6"/>
+<Item key="PoissonRatio" value="0.33"/>
+<Item key="ProductURL" value="https://en.wikipedia.org/wiki/6061_aluminium_alloy"/>
+<Item key="ThermalConductivity" value="167 W/m/K"/>
+<Item key="UltimateTensileStrength" value="310 MPa"/>
+<Item key="YoungsModulus" value="69000 MPa"/>
+      </Map>
+    </Property>
+    <Property name="Proxy" type="App::PropertyPythonObject">
+      <Python  module="femobjects.material_common" class="MaterialCommon" value="null"/>
+    </Property>
+    <Property name="References" type="App::PropertyLinkSubList" group="Material" attr="0" ro="0" hide="0" docID="20" status="2097152">
+      <LinkSubList count="0">
+      </LinkSubList>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+</Object>
+</Document>

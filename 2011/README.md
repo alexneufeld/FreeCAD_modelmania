@@ -4,6 +4,10 @@
 
 ![TBD](./phase2.png)
 
+![TBD](./sim_setup.png)
+
+![TBD](./sim_result.png)
+
 ## Notes
 
 These are some of the coolest ones IMO. The workflow for them was:

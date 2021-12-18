@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="ConstraintForce">
+  <Properties Count="12" TransientCount="0">
+    <Property name="Direction" type="App::PropertyLinkSub">
+      <LinkSub value="Binder" count="1">
+        <Sub value="Edge59" shadow=";#204e;:Hf06,E;:Hf01,E;BND:0:0;:Hee3:10,E;:H-10ec:1b,E.Edge59"/>
+      </LinkSub>
+    </Property>
+    <Property name="DirectionVector" type="App::PropertyVector" status="150994944">
+      <PropertyVector valueX="-6e-17" valueY="0" valueZ="-1"/>
+    </Property>
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="Force" type="App::PropertyFloat">
+      <Float value="1000"/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="ConstraintForce"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="NormalDirection" type="App::PropertyVector" status="150994944">
+      <PropertyVector valueX="1" valueY="-1.898821519314986e-15" valueZ="0"/>
+    </Property>
+    <Property name="Points" type="App::PropertyVectorList" status="150994944">
+      <VectorList count="12" >
+132.5 -2.664535259100376e-14 -10
+121.25 6.495190528383299 -10
+121.25 -6.495190528383285 -10
+132.5 -1.83697019872103e-15 -10
+132.5 -2.664535259100376e-14 -20
+121.25 6.495190528383299 -20
+121.25 -6.495190528383285 -20
+132.5 -1.83697019872103e-15 -20
+132.5 -2.664535259100376e-14 -30
+121.25 6.495190528383299 -30
+121.25 -6.495190528383285 -30
+132.5 -1.83697019872103e-15 -30
+      </VectorList>
+    </Property>
+    <Property name="References" type="App::PropertyLinkSubList">
+      <LinkSubList count="1">
+        <Link obj="Binder" sub="Face17" shadow=";#208a;:Hf06,F;:Hf01,F;BND:0:0;:Hee3:10,F;:H-10ec:1b,F.Face17"/>
+      </LinkSubList>
+    </Property>
+    <Property name="Reversed" type="App::PropertyBool">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Scale" type="App::PropertyInteger" status="134217728">
+      <Integer value="4"/>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="649">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+</Object>
+</Document>

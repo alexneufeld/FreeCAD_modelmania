@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="ccx_dat_file">
+  <Properties Count="5" TransientCount="0">
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="ccx_dat_file"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="Text" type="App::PropertyString" status="67108864">
+      <String value="&#10; total force (fx,fy,fz) for set CONSTRAINTFIXED and time  0.1000000E+01&#10;&#10;        2.311158E-10  5.698652E-10  5.000000E+02&#10;"/>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+</Object>
+</Document>

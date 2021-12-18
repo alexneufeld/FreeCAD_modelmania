@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="ConstraintFixed">
+  <Properties Count="9" TransientCount="0">
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="ConstraintFixed"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="NormalDirection" type="App::PropertyVector" status="150994944">
+      <PropertyVector valueX="1.8e-16" valueY="2.3e-16" valueZ="-1"/>
+    </Property>
+    <Property name="Normals" type="App::PropertyVectorList" status="150994944">
+      <VectorList count="8" >
+1.8e-16 2.3e-16 -1
+1.8e-16 2.3e-16 -1
+1.8e-16 2.3e-16 -1
+1.8e-16 2.3e-16 -1
+1.8e-16 2.3e-16 -1
+1.8e-16 2.3e-16 -1
+1.8e-16 2.3e-16 -1
+1.8e-16 2.3e-16 -1
+      </VectorList>
+    </Property>
+    <Property name="Points" type="App::PropertyVectorList" status="150994944">
+      <VectorList count="8" >
+11.66666666666666 -12.00000000000002 -2.198000000000001e-14
+-11.66666666666667 -12.00000000000001 -2.618000000000001e-14
+35 -1.324814103640151e-14 -1.502000000000001e-14
+11.66666666666667 -2.981474369734839e-15 -1.922000000000001e-14
+-11.66666666666667 7.28519229693183e-15 -2.342e-14
+-35 1.75518589635985e-14 -2.762e-14
+11.66666666666667 12.00000000000002 -1.646e-14
+-11.66666666666666 12.00000000000003 -2.066e-14
+      </VectorList>
+    </Property>
+    <Property name="References" type="App::PropertyLinkSubList">
+      <LinkSubList count="1">
+        <Link obj="Binder" sub="Face29" shadow=";#14aa;:H1147,F;:H1142,F;BND:0:0;:H112d:11,F;:H-1e0:1d,F.Face29"/>
+      </LinkSubList>
+    </Property>
+    <Property name="Scale" type="App::PropertyInteger" status="134217728">
+      <Integer value="6"/>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="649">
+      <Bool value="false"/>
+    </Property>
+  </Properties>
+</Object>
+</Document>

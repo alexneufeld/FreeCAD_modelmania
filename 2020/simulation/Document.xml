@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="2021.1015R24301 +4280 (Git)" FileVersion="2" Uid="ed03070e-5fcb-43b9-9a25-42a9941427f5" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="0" new="1"/>
+  <StringHasher2  count="38">
+<![CDATA[
+-1.0 0:Working directory for calculations, will only be used it is left blank in preferences
+-1.0 0:Type of the analysis
+-1.0 0:Set geometrical nonlinearity
+-1.0 0:Set material nonlinearity (needs geometrical nonlinearity)
+-1.0 0:Number of modes for frequency calculations
+-1.0 0:Low frequency limit for eigenmode calculations
+-1.0 0:High frequency limit for eigenmode calculations
+-1.0 0:Maximum Number of thermo mechanical iterations in each time step before stopping jobs
+-1.0 0:Initial time steps
+-1.0 0:End time analysis
+-1.0 0:Choose between steady state thermo mech or transient thermo mech analysis
+-1.0 0:Use the user defined time incrementation control parameter
+-1.0 0:Split writing of ccx input file
+-1.0 0:User defined time incrementation iterations control parameter
+-1.0 0:User defined time incrementation cutbacks control parameter
+-1.0 0:Set to True to switch off the ccx automatic incrementation completely (ccx parameter DIRECT). Use with care. Analysis may not converge!
+-1.0 0:Set to True to use the user defined time steps. The time steps are set with TimeInitialStep and TimeEnd
+-1.0 0:Type of solver to use
+-1.0 0:Output 3D results for 1D and 2D analysis 
+-1.0 0:List of material shapes
+-1.0 0:Material type: fluid or solid
+-1.0 0:Type of the result
+-1.0 0:User Defined Results
+-1.0 0:List of displacement vectors
+-1.0 0:List of equivalent plastic strain values
+-1.0 0:List of Mohr Coulomb stress values
+-1.0 0:Reinforcement ratio x-direction
+-1.0 0:Reinforcement ratio y-direction
+-1.0 0:Reinforcement ratio z-direction
+-1.0 0:List of 1st Principal Stress Vectors
+-1.0 0:List of 2nd Principal Stress Vectors
+-1.0 0:List of 3rd Principal Stress Vectors
+-1.0 0:List of displacement lengths
+-1.0 0:List of von Mises equivalent stresses
+-1.0 0:List of Maximum Shear stress values
+-1.0 0:List of mass flow rate values
+-1.0 0:List of network pressure values
+-1.0 0:Temperature field
+]]>
+  </StringHasher2>
+  <Properties Count="19" TransientCount="3">
+    <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+    <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+    <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+    <Property name="Comment" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Company" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="CreatedBy" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="CreationDate" type="App::PropertyString" status="16777217">
+      <String value="2021-12-17T19:11:19Z"/>
+    </Property>
+    <Property name="ForceXML" type="App::PropertyInteger" status="1">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Id" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="1">
+      <String value="simulation"/>
+    </Property>
+    <Property name="LastModifiedBy" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+      <String value="2021-12-17T19:40:31Z"/>
+    </Property>
+    <Property name="License" type="App::PropertyString" status="1">
+      <String value="All rights reserved"/>
+    </Property>
+    <Property name="LicenseURL" type="App::PropertyString" status="1">
+      <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="Meta" type="App::PropertyMap">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="PreferBinary" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowHidden" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SplitXML" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TipName" type="App::PropertyString" status="83886080">
+      <String value=""/>
+    </Property>
+    <Property name="Uid" type="App::PropertyUUID" status="16777217">
+      <Uuid value="ed03070e-5fcb-43b9-9a25-42a9941427f5"/>
+    </Property>
+    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+  <Objects Count="10" Dependencies="1">
+    <ObjectDeps Name="Binder" Count="0"/>
+    <ObjectDeps Name="Analysis" Count="6">
+      <Dep Name="SolverCcxTools"/>
+      <Dep Name="FEMMeshNetgen"/>
+      <Dep Name="ConstraintForce"/>
+      <Dep Name="CCX_Results"/>
+      <Dep Name="MaterialSolid"/>
+      <Dep Name="ConstraintFixed"/>
+    </ObjectDeps>
+    <ObjectDeps Name="SolverCcxTools" Count="0"/>
+    <ObjectDeps Name="FEMMeshNetgen" Count="1">
+      <Dep Name="Binder"/>
+    </ObjectDeps>
+    <ObjectDeps Name="ConstraintForce" Count="1">
+      <Dep Name="Binder"/>
+    </ObjectDeps>
+    <ObjectDeps Name="ConstraintFixed" Count="1">
+      <Dep Name="Binder"/>
+    </ObjectDeps>
+    <ObjectDeps Name="MaterialSolid" Count="0"/>
+    <ObjectDeps Name="ResultMesh" Count="0"/>
+    <ObjectDeps Name="CCX_Results" Count="1">
+      <Dep Name="ResultMesh"/>
+    </ObjectDeps>
+    <ObjectDeps Name="ccx_dat_file" Count="0"/>
+    <Object type="PartDesign::SubShapeBinder" name="Binder" id="1799" revision="8" file="Binder.xml" />
+    <Object type="Fem::FemAnalysis" name="Analysis" id="1800" revision="27" file="Analysis.xml" />
+    <Object type="Fem::FemSolverObjectPython" name="SolverCcxTools" id="1801" revision="14" file="SolverCcxTools.xml" />
+    <Object type="Fem::FemMeshShapeNetgenObject" name="FEMMeshNetgen" id="1802" revision="3" file="FEMMeshNetgen.xml" />
+    <Object type="Fem::ConstraintForce" name="ConstraintForce" id="1803" revision="12" file="ConstraintForce.xml" />
+    <Object type="Fem::ConstraintFixed" name="ConstraintFixed" id="1804" revision="3" file="ConstraintFixed.xml" />
+    <Object type="App::MaterialObjectPython" name="MaterialSolid" id="1805" revision="4" file="MaterialSolid.xml" />
+    <Object type="Fem::FemMeshObjectPython" name="ResultMesh" id="1806" revision="3" file="ResultMesh.xml" />
+    <Object type="Fem::FemResultObjectPython" name="CCX_Results" id="1807" revision="26" file="CCX_Results.xml" />
+    <Object type="App::TextDocument" name="ccx_dat_file" id="1808" revision="1" file="ccx_dat_file.xml" />
+  </Objects>
+  <ObjectData Count="0">
+  </ObjectData>
+</Document>

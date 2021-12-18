@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="ConstraintFixed">
+  <Properties Count="9" TransientCount="0">
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="ConstraintFixed"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="NormalDirection" type="App::PropertyVector" status="150994944">
+      <PropertyVector valueX="-1" valueY="-1.224646799147353e-16" valueZ="0"/>
+    </Property>
+    <Property name="Normals" type="App::PropertyVectorList" status="150994944">
+      <VectorList count="16" >
+1 3.552713678800501e-15 -0
+-0.4999999999999991 -0.8660254037844392 0
+-0.4999999999999988 0.8660254037844393 0
+1 -3.30778431897103e-15 0
+1 3.552713678800501e-15 -0
+-0.4999999999999991 -0.8660254037844392 0
+-0.4999999999999988 0.8660254037844393 0
+1 -3.30778431897103e-15 0
+1 3.552713678800501e-15 -0
+-0.4999999999999991 -0.8660254037844392 0
+-0.4999999999999988 0.8660254037844393 0
+1 -3.30778431897103e-15 0
+1 3.552713678800501e-15 -0
+-0.4999999999999991 -0.8660254037844392 0
+-0.4999999999999988 0.8660254037844393 0
+1 -3.30778431897103e-15 0
+      </VectorList>
+    </Property>
+    <Property name="Points" type="App::PropertyVectorList" status="150994944">
+      <VectorList count="16" >
+-22.5 -7.993605777301127e-14 0
+11.24999999999997 19.48557158514988 0
+11.24999999999997 -19.48557158514988 0
+-22.5 7.442514717684818e-14 0
+-22.5 -7.993605777301127e-14 13.33333333333334
+11.24999999999997 19.48557158514988 13.33333333333334
+11.24999999999997 -19.48557158514988 13.33333333333334
+-22.5 7.442514717684818e-14 13.33333333333334
+-22.5 -7.993605777301127e-14 26.66666666666667
+11.24999999999997 19.48557158514988 26.66666666666667
+11.24999999999997 -19.48557158514988 26.66666666666667
+-22.5 7.442514717684818e-14 26.66666666666667
+-22.5 -7.993605777301127e-14 40
+11.24999999999997 19.48557158514988 40
+11.24999999999997 -19.48557158514988 40
+-22.5 7.442514717684818e-14 40
+      </VectorList>
+    </Property>
+    <Property name="References" type="App::PropertyLinkSubList">
+      <LinkSubList count="1">
+        <Link obj="Binder" sub="Face98" shadow=";#209c;:Hf06,F;:Hf01,F;BND:0:0;:Hee3:10,F;:H-10ec:1b,F.Face98"/>
+      </LinkSubList>
+    </Property>
+    <Property name="Scale" type="App::PropertyInteger" status="134217728">
+      <Integer value="9"/>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="649">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+</Object>
+</Document>

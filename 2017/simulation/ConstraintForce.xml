@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="ConstraintForce">
+  <Properties Count="12" TransientCount="0">
+    <Property name="Direction" type="App::PropertyLinkSub">
+      <LinkSub value="Binder" count="1">
+        <Sub value="Edge127" shadow=";#6fe;:M;CUT;:H-55e:7,E;:H55e,E;BND:0:0;:H546:10,E;:H-109a:1b,E.Edge127"/>
+      </LinkSub>
+    </Property>
+    <Property name="DirectionVector" type="App::PropertyVector" status="150994944">
+      <PropertyVector valueX="5e-17" valueY="3e-17" valueZ="1"/>
+    </Property>
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="Force" type="App::PropertyFloat">
+      <Float value="2400"/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="ConstraintForce"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="NormalDirection" type="App::PropertyVector" status="150994944">
+      <PropertyVector valueX="2.537652627714641e-16" valueY="-1" valueZ="0"/>
+    </Property>
+    <Property name="Points" type="App::PropertyVectorList" status="150994944">
+      <VectorList count="27" >
+-19.05255888325769 7.500000000000028 0
+-19.0525588832577 14.50000000000003 0
+-19.05255888325772 7.500000000000028 0
+-19.05255888325769 7.500000000000028 1.499999999999997
+-19.0525588832577 14.50000000000003 1.499999999999997
+-19.05255888325772 7.500000000000028 1.499999999999997
+-19.05255888325769 7.500000000000028 2.999999999999993
+-19.0525588832577 14.50000000000003 2.999999999999993
+-19.05255888325772 7.500000000000028 2.999999999999993
+16.02146997001216 12.75 0
+22.08364779650324 9.250000000000005 0
+16.02146997001217 12.75000000000002 0
+16.02146997001216 12.75 1.500000000000002
+22.08364779650324 9.250000000000005 1.500000000000002
+16.02146997001217 12.75000000000002 1.500000000000002
+16.02146997001216 12.75 3.000000000000005
+22.08364779650324 9.250000000000005 3.000000000000005
+16.02146997001217 12.75000000000002 3.000000000000005
+3.031088913245531 -20.25000000000004 0
+-3.031088913245536 -23.75000000000005 0
+3.031088913245544 -20.25000000000006 0
+3.031088913245531 -20.25000000000004 1.500000000000005
+-3.031088913245536 -23.75000000000005 1.500000000000005
+3.031088913245544 -20.25000000000006 1.500000000000005
+3.031088913245531 -20.25000000000004 3.00000000000001
+-3.031088913245536 -23.75000000000005 3.00000000000001
+3.031088913245544 -20.25000000000006 3.00000000000001
+      </VectorList>
+    </Property>
+    <Property name="References" type="App::PropertyLinkSubList">
+      <LinkSubList count="3">
+        <Link obj="Binder" sub="Face26" shadow=";#6db;:H55c,F;:H55e,F;BND:0:0;:H546:10,F;:H-109a:1b,F.Face26"/>
+        <Link obj="Binder" sub="Face25" shadow=";#1041;:H55c,F;:H55e,F;BND:0:0;:H546:10,F;:H-109a:1b,F.Face25"/>
+        <Link obj="Binder" sub="Face28" shadow=";#6da;:H55c,F;:H55e,F;BND:0:0;:H546:10,F;:H-109a:1b,F.Face28"/>
+      </LinkSubList>
+    </Property>
+    <Property name="Reversed" type="App::PropertyBool">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Scale" type="App::PropertyInteger" status="134217728">
+      <Integer value="1"/>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="649">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+</Object>
+</Document>
