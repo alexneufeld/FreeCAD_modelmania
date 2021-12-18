@@ -43,8 +43,8 @@ Progress table:
 
 | Year |          Stage1        |        Stage2          |       Simulation       |
 |------|------------------------|------------------------|------------------------|
-| 2000 | :red_circle:           | :black_square_button:  | N/A                    |
-| 2001 | :heavy_check_mark:     | :black_square_button:  | N/A                    |
+| 2000 | :heavy_check_mark:     | :heavy_check_mark:     | N/A                    |
+| 2001 | :heavy_check_mark:     | :heavy_check_mark:     | N/A                    |
 | 2002 | :heavy_check_mark:     | :black_square_button:  | N/A                    |
 | 2003 | :heavy_check_mark:     | :heavy_check_mark:     | N/A                    |
 | 2004 | :heavy_check_mark:     | :heavy_check_mark:     | N/A                    |
