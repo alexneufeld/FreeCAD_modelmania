@@ -49,7 +49,7 @@ Progress table:
 | 2003 | :heavy_check_mark:     | :heavy_check_mark:     | N/A                    |
 | 2004 | :heavy_check_mark:     | :heavy_check_mark:     | N/A                    |
 | 2005 | :heavy_check_mark:     | :heavy_check_mark:     | N/A                    |
-| 2006 | :heavy_check_mark:     | :black_square_button:  | N/A                    |
+| 2006 | :heavy_check_mark:     | :heavy_check_mark:     | N/A                    |
 | 2007 | :heavy_check_mark:     | :heavy_check_mark:     | N/A                    |
 | 2008 | :large_orange_diamond: | :large_orange_diamond: | :heavy_check_mark:     |
 | 2009 | :heavy_check_mark:     | N/A                    | :heavy_check_mark:     |
