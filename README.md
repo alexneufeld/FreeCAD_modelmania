@@ -1,7 +1,7 @@
 # Model Mania in FreeCAD Link Branch
 
 My attempt to complete all of the 
-[SolidWorks Model Mania](https://blogs.solidworks.com/tech/2021/02/22-years-of-model-mania.html)
+[SolidWorks Model Mania](https://blogs.solidworks.com/tech/2022/02/23-years-of-model-mania.html)
 challenges using Realthunder's [experimental FreeCAD Branch](https://github.com/realthunder/FreeCAD_assembly3/releases).
 
 Each year in which a challenge was offered has a folder in this repository,
