@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="SolverCcxTools">
+  <Properties Count="26" TransientCount="0">
+    <Property name="AnalysisType" type="App::PropertyEnumeration" group="Fem" attr="0" ro="0" hide="0" docID="1" status="2097152">
+      <Integer value="0" CustomEnum="true"/>
+      <CustomEnumList count="5">
+<Enum value="static"/>
+<Enum value="frequency"/>
+<Enum value="thermomech"/>
+<Enum value="check"/>
+<Enum value="buckling"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="BeamShellResultOutput3D" type="App::PropertyBool" group="Fem" attr="0" ro="0" hide="0" docID="19" status="2097152">
+      <Bool value="false"/>
+    </Property>
+    <Property name="BucklingFactors" type="App::PropertyIntegerConstraint" group="Fem" attr="0" ro="0" hide="0" docID="8" status="2097152">
+      <Integer value="1"/>
+    </Property>
+    <Property name="EigenmodeHighLimit" type="App::PropertyFloatConstraint" group="Fem" attr="0" ro="0" hide="0" docID="6" status="2097152">
+      <Float value="1000000"/>
+    </Property>
+    <Property name="EigenmodeLowLimit" type="App::PropertyFloatConstraint" group="Fem" attr="0" ro="0" hide="0" docID="5" status="2097152">
+      <Float value="0"/>
+    </Property>
+    <Property name="EigenmodesCount" type="App::PropertyIntegerConstraint" group="Fem" attr="0" ro="0" hide="0" docID="4" status="2097152">
+      <Integer value="10"/>
+    </Property>
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="GeometricalNonlinearity" type="App::PropertyEnumeration" group="Fem" attr="0" ro="0" hide="0" docID="2" status="2097152">
+      <Integer value="0" CustomEnum="true"/>
+      <CustomEnumList count="2">
+<Enum value="linear"/>
+<Enum value="nonlinear"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="IterationsControlParameterCutb" type="App::PropertyString" group="Fem" attr="0" ro="0" hide="0" docID="15" status="2097152">
+      <String value="0.25,0.5,0.75,0.85,,,1.5,"/>
+    </Property>
+    <Property name="IterationsControlParameterIter" type="App::PropertyString" group="Fem" attr="0" ro="0" hide="0" docID="14" status="2097152">
+      <String value="4,8,9,200,10,400,,200,,"/>
+    </Property>
+    <Property name="IterationsControlParameterTimeUse" type="App::PropertyBool" group="Fem" attr="0" ro="0" hide="0" docID="12" status="2097152">
+      <Bool value="false"/>
+    </Property>
+    <Property name="IterationsThermoMechMaximum" type="App::PropertyIntegerConstraint" group="Fem" attr="0" ro="0" hide="0" docID="7" status="2097152">
+      <Integer value="200"/>
+    </Property>
+    <Property name="IterationsUserDefinedIncrementations" type="App::PropertyBool" group="Fem" attr="0" ro="0" hide="0" docID="16" status="2097152">
+      <Bool value="false"/>
+    </Property>
+    <Property name="IterationsUserDefinedTimeStepLength" type="App::PropertyBool" group="Fem" attr="0" ro="0" hide="0" docID="17" status="2097152">
+      <Bool value="false"/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="SolverCcxTools"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="MaterialNonlinearity" type="App::PropertyEnumeration" group="Fem" attr="0" ro="0" hide="0" docID="3" status="2097152">
+      <Integer value="0" CustomEnum="true"/>
+      <CustomEnumList count="2">
+<Enum value="linear"/>
+<Enum value="nonlinear"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="MatrixSolverType" type="App::PropertyEnumeration" group="Fem" attr="0" ro="0" hide="0" docID="18" status="2097152">
+      <Integer value="0" CustomEnum="true"/>
+      <CustomEnumList count="4">
+<Enum value="default"/>
+<Enum value="spooles"/>
+<Enum value="iterativescaling"/>
+<Enum value="iterativecholesky"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="Proxy" type="App::PropertyPythonObject">
+      <Python  module="femobjects.solver_ccxtools" class="SolverCcxTools" value="null"/>
+    </Property>
+    <Property name="SplitInputWriter" type="App::PropertyBool" group="Fem" attr="0" ro="0" hide="0" docID="13" status="2097152">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ThermoMechSteadyState" type="App::PropertyBool" group="Fem" attr="0" ro="0" hide="0" docID="11" status="2097152">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TimeEnd" type="App::PropertyFloatConstraint" group="Fem" attr="0" ro="0" hide="0" docID="10" status="2097152">
+      <Float value="1"/>
+    </Property>
+    <Property name="TimeInitialStep" type="App::PropertyFloatConstraint" group="Fem" attr="0" ro="0" hide="0" docID="9" status="2097152">
+      <Float value="1"/>
+    </Property>
+    <Property name="TreeRank" type="App::PropertyInteger" status="2184">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="true"/>
+    </Property>
+    <Property name="WorkingDir" type="App::PropertyPath" group="Fem" attr="0" ro="0" hide="0" docID="20" status="2097152">
+      <Path value=""/>
+    </Property>
+  </Properties>
+</Object>
+</Document>

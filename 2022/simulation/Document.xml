@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="2022.111R30764 (Git)" FileVersion="2" Uid="63a4ce35-420b-4339-b9eb-4ffd576002c7" StringHasher="1">
+  <StringHasher saveall="0" threshold="0" count="0" new="1"/>
+  <StringHasher2  count="60">
+<![CDATA[
+-1.0 0:Type of the analysis
+-1.0 0:Set geometrical nonlinearity
+-1.0 0:Set material nonlinearity (needs geometrical nonlinearity)
+-1.0 0:Number of modes for frequency calculations
+-1.0 0:Low frequency limit for eigenmode calculations
+-1.0 0:High frequency limit for eigenmode calculations
+-1.0 0:Maximum Number of thermo mechanical iterations in each time step before stopping jobs
+-1.0 0:Calculates the lowest buckling modes to the corresponding buckling factors
+-1.0 0:Initial time steps
+-1.0 0:End time analysis
+-1.0 0:Choose between steady state thermo mech or transient thermo mech analysis
+-1.0 0:Use the user defined time incrementation control parameter
+-1.0 0:Split writing of ccx input file
+-1.0 0:User defined time incrementation iterations control parameter
+-1.0 0:User defined time incrementation cutbacks control parameter
+-1.0 0:Set to True to switch off the ccx automatic incrementation completely (ccx parameter DIRECT). Use with care. Analysis may not converge!
+-1.0 0:Set to True to use the user defined time steps. The time steps are set with TimeInitialStep and TimeEnd
+-1.0 0:Type of solver to use
+-1.0 0:Output 3D results for 1D and 2D analysis 
+-1.0 0:Working directory for calculations, will only be used it is left blank in preferences
+-1.0 0:List of material shapes
+-1.0 0:Material type: fluid or solid
+-1.0 0:Mesh boundaries need inflation layers
+-1.0 0:Mesh regions of the mesh
+-1.0 0:Mesh groups of the mesh
+-1.0 0:Geometry object, the mesh is made from. The geometry object has to have a Shape.
+-1.0 0:Max mesh element size (0.0 = infinity)
+-1.0 0:Min mesh element size
+-1.0 0:Dimension of mesh elements (Auto = according ShapeType of part to mesh)
+-1.0 0:Order of mesh elements
+-1.0 0:Optimize tetrahedral elements
+-1.0 0:Optimize tetra elements by use of Netgen
+-1.0 0:Optimization of high order meshes
+-1.0 0:Apply recombination algorithm to all surfaces
+-1.0 0:Apply recombination algorithm to all volumes
+-1.0 0:Recombination algorithm
+-1.0 0:Removes all duplicate mesh vertices
+-1.0 0:Geometrical Tolerance (0.0 = GMSH std = 1e-08)
+-1.0 0:Second order nodes are created by linear interpolation
+-1.0 0:number of elements per 2*pi radians, 0 to deactivate
+-1.0 0:mesh algorithm 2D
+-1.0 0:mesh algorithm 3D
+-1.0 0:For each group create not only the elements but the nodes too.
+-1.0 0:Type of the result
+-1.0 0:User Defined Results
+-1.0 0:List of displacement vectors
+-1.0 0:List of equivalent plastic strain values
+-1.0 0:List of Mohr Coulomb stress values
+-1.0 0:Reinforcement ratio x-direction
+-1.0 0:Reinforcement ratio y-direction
+-1.0 0:Reinforcement ratio z-direction
+-1.0 0:List of 1st Principal Stress Vectors
+-1.0 0:List of 2nd Principal Stress Vectors
+-1.0 0:List of 3rd Principal Stress Vectors
+-1.0 0:List of displacement lengths
+-1.0 0:List of von Mises equivalent stresses
+-1.0 0:List of Maximum Shear stress values
+-1.0 0:List of mass flow rate values
+-1.0 0:List of network pressure values
+-1.0 0:Temperature field
+]]>
+  </StringHasher2>
+  <Properties Count="20" TransientCount="3">
+    <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+    <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+    <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+    <Property name="Comment" type="App::PropertyString" status="1">
+      <String value=""/>
+    </Property>
+    <Property name="Company" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="CreatedBy" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="CreationDate" type="App::PropertyString" status="16777217">
+      <String value="2022-03-13T18:08:24Z"/>
+    </Property>
+    <Property name="ForceXML" type="App::PropertyInteger" status="1">
+      <Integer value="3"/>
+    </Property>
+    <Property name="Id" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="1">
+      <String value="simulation"/>
+    </Property>
+    <Property name="LastModifiedBy" type="App::PropertyString">
+      <String value=""/>
+    </Property>
+    <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+      <String value="2022-03-13T18:23:39Z"/>
+    </Property>
+    <Property name="License" type="App::PropertyString" status="1">
+      <String value="All rights reserved"/>
+    </Property>
+    <Property name="LicenseURL" type="App::PropertyString" status="1">
+      <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="Meta" type="App::PropertyMap" status="1">
+      <Map count="0">
+      </Map>
+    </Property>
+    <Property name="OnTopObjects" type="App::PropertyStringList" group="Views" attr="0" ro="0" hide="0" doc="" status="2097153">
+      <StringList count="0" >
+      </StringList>
+    </Property>
+    <Property name="PreferBinary" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="ShowHidden" type="App::PropertyBool" status="1">
+      <Bool value="false"/>
+    </Property>
+    <Property name="SplitXML" type="App::PropertyBool" status="1">
+      <Bool value="true"/>
+    </Property>
+    <Property name="TipName" type="App::PropertyString" status="83886080">
+      <String value=""/>
+    </Property>
+    <Property name="Uid" type="App::PropertyUUID" status="16777217">
+      <Uuid value="63a4ce35-420b-4339-b9eb-4ffd576002c7"/>
+    </Property>
+    <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+  <Objects Count="10" Dependencies="1">
+    <ObjectDeps Name="Binder" Count="0"/>
+    <ObjectDeps Name="Analysis" Count="7">
+      <Dep Name="SolverCcxTools"/>
+      <Dep Name="ConstraintFixed"/>
+      <Dep Name="ConstraintForce"/>
+      <Dep Name="MaterialSolid"/>
+      <Dep Name="FEMMeshGmsh"/>
+      <Dep Name="CCX_Results"/>
+      <Dep Name="ccx_dat_file"/>
+    </ObjectDeps>
+    <ObjectDeps Name="SolverCcxTools" Count="0"/>
+    <ObjectDeps Name="MaterialSolid" Count="0"/>
+    <ObjectDeps Name="FEMMeshGmsh" Count="1">
+      <Dep Name="Binder"/>
+    </ObjectDeps>
+    <ObjectDeps Name="ConstraintFixed" Count="1">
+      <Dep Name="Binder"/>
+    </ObjectDeps>
+    <ObjectDeps Name="ConstraintForce" Count="1">
+      <Dep Name="Binder"/>
+    </ObjectDeps>
+    <ObjectDeps Name="ResultMesh" Count="0"/>
+    <ObjectDeps Name="CCX_Results" Count="1">
+      <Dep Name="ResultMesh"/>
+    </ObjectDeps>
+    <ObjectDeps Name="ccx_dat_file" Count="0"/>
+    <Object type="PartDesign::SubShapeBinder" name="Binder" id="1" revision="6" file="Binder.xml" />
+    <Object type="Fem::FemAnalysis" name="Analysis" id="2" revision="35" file="Analysis.xml" />
+    <Object type="Fem::FemSolverObjectPython" name="SolverCcxTools" id="3" revision="15" file="SolverCcxTools.xml" />
+    <Object type="App::MaterialObjectPython" name="MaterialSolid" id="4" revision="4" file="MaterialSolid.xml" />
+    <Object type="Fem::FemMeshObjectPython" name="FEMMeshGmsh" id="5" revision="15" file="FEMMeshGmsh.xml" />
+    <Object type="Fem::ConstraintFixed" name="ConstraintFixed" id="6" revision="3" file="ConstraintFixed.xml" />
+    <Object type="Fem::ConstraintForce" name="ConstraintForce" id="7" revision="12" file="ConstraintForce.xml" />
+    <Object type="Fem::FemMeshObjectPython" name="ResultMesh" id="8" revision="3" file="ResultMesh.xml" />
+    <Object type="Fem::FemResultObjectPython" name="CCX_Results" id="9" revision="26" file="CCX_Results.xml" />
+    <Object type="App::TextDocument" name="ccx_dat_file" id="10" revision="1" file="ccx_dat_file.xml" />
+  </Objects>
+  <ObjectData Count="0">
+  </ObjectData>
+</Document>

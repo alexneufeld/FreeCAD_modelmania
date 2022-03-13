@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="MaterialSolid">
+  <Properties Count="9" TransientCount="0">
+    <Property name="Category" type="App::PropertyEnumeration" group="Material" attr="0" ro="0" hide="0" docID="22" status="2097152">
+      <Integer value="0" CustomEnum="true"/>
+      <CustomEnumList count="2">
+<Enum value="Solid"/>
+<Enum value="Fluid"/>
+      </CustomEnumList>
+    </Property>
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="MaterialSolid"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="Material" type="App::PropertyMap">
+      <Map count="12">
+<Item key="AuthorAndLicense" value="(c) 2013 Juergen Riegel (CC-BY 3.0)"/>
+<Item key="CardName" value="Steel-Generic"/>
+<Item key="Density" value="7900 kg/m^3"/>
+<Item key="Description" value="This is a blend Steel material card. The values are at the low end of the spectrum. If you need a more precise material definition use the more specialised steel cards."/>
+<Item key="Father" value="Metal"/>
+<Item key="Name" value="Steel-Generic"/>
+<Item key="PoissonRatio" value="0.3"/>
+<Item key="ProductURL" value="https://en.wikipedia.org/wiki/Steel"/>
+<Item key="SpecificHeat" value="500 J/kg/K"/>
+<Item key="ThermalConductivity" value="50 W/m/K"/>
+<Item key="ThermalExpansionCoefficient" value="0.000012 m/m/K"/>
+<Item key="YoungsModulus" value="200000 MPa"/>
+      </Map>
+    </Property>
+    <Property name="Proxy" type="App::PropertyPythonObject">
+      <Python  module="femobjects.material_common" class="MaterialCommon" value="null"/>
+    </Property>
+    <Property name="References" type="App::PropertyLinkSubList" group="Material" attr="0" ro="0" hide="0" docID="21" status="2097152">
+      <LinkSubList count="0">
+      </LinkSubList>
+    </Property>
+    <Property name="TreeRank" type="App::PropertyInteger" status="2184">
+      <Integer value="4"/>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+</Object>
+</Document>

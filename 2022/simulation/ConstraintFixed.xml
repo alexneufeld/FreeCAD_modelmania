@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- FreeCAD DocumentObject -->
+<Document SchemaVersion="4" FileVersion="2">
+<Object name="ConstraintFixed">
+  <Properties Count="10" TransientCount="0">
+    <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+      <ExpressionEngine count="0"></ExpressionEngine>
+    </Property>
+    <Property name="Label" type="App::PropertyString" status="134217728">
+      <String value="ConstraintFixed"/>
+    </Property>
+    <Property name="Label2" type="App::PropertyString" status="128">
+      <String value=""/>
+    </Property>
+    <Property name="NormalDirection" type="App::PropertyVector" status="150994944">
+      <PropertyVector valueX="6.058870939121649e-16" valueY="-2.122964064952608e-16" valueZ="-1"/>
+    </Property>
+    <Property name="Normals" type="App::PropertyVectorList" status="150994944">
+      <VectorList count="7" >
+6.058870939121649e-16 -2.122964064952608e-16 -1
+6.058870939121649e-16 -2.122964064952608e-16 -1
+6.058870939121649e-16 -2.122964064952608e-16 -1
+6.058870939121649e-16 -2.122964064952608e-16 -1
+6.058870939121649e-16 -2.122964064952608e-16 -1
+6.058870939121649e-16 -2.122964064952608e-16 -1
+6.058870939121649e-16 -2.122964064952608e-16 -1
+      </VectorList>
+    </Property>
+    <Property name="Points" type="App::PropertyVectorList" status="150994944">
+      <VectorList count="7" >
+6.666666666666686 -12.00000000000004 -4.569978424614905e-15
+-2.666666666666666 -12.00000000000004 -1.022492463446179e-14
+16.00000000000004 -1.858743477054206e-16 -1.46258909271116e-15
+6.666666666666686 -1.858743477054206e-16 -7.117535302558043e-15
+-12.00000000000002 -1.858743477054206e-16 -1.842742772225181e-14
+6.666666666666686 12.00000000000004 -9.665092180501182e-15
+-2.666666666666666 12.00000000000004 -1.532003839034806e-14
+      </VectorList>
+    </Property>
+    <Property name="References" type="App::PropertyLinkSubList">
+      <LinkSubList count="1">
+        <Link obj="Binder" sub="Face5" shadow=";#4f2;:M;CUT;:H1172:7,F;:H1173,F;:X;BND:0:0;:H1151:14,F;:H-1:20,F.Face5"/>
+      </LinkSubList>
+    </Property>
+    <Property name="Scale" type="App::PropertyInteger" status="134217728">
+      <Integer value="1"/>
+    </Property>
+    <Property name="TreeRank" type="App::PropertyInteger" status="2184">
+      <Integer value="6"/>
+    </Property>
+    <Property name="Visibility" type="App::PropertyBool" status="648">
+      <Bool value="true"/>
+    </Property>
+  </Properties>
+</Object>
+</Document>
