@@ -66,3 +66,5 @@ Progress table:
 | 2020 | :heavy_check_mark:     | :heavy_check_mark:     | :heavy_check_mark:     |
 | 2021 | :heavy_check_mark:     | N/A                    | :heavy_check_mark:     |
 | 2022 | :heavy_check_mark:     | N/A                    | :heavy_check_mark:     |
+| 2023 | :heavy_check_mark:     | :heavy_check_mark:     | N/A                    |
+
